@@ -2,7 +2,7 @@
 features <- read.table("./UCI HAR Dataset/features.txt")
 activities <- read.table("./UCI HAR Dataset/activity_labels.txt")
 
-#reading train data
+##reading train data
 train <- read.table("./UCI HAR Dataset/train/X_train.txt") #features data
 colnames(train) <- features$V2 #descriptive column names for data (STEP 4)
 y_train <- read.table("./UCI HAR Dataset/train/y_train.txt") #activity labels
