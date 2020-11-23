@@ -1,4 +1,3 @@
-@@ -36,6 +36,8 @@ These signals were used to estimate variables of the feature vector for each pat
 
 ## CodeBook
 
